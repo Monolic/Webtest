@@ -7,25 +7,31 @@ html,
 body {
     height: 100%;
     max-width: 100%;
+
 }
 body {
-    background-color: antiquewhite;     
+    background-color: rgb(251, 245, 238);   
 }
 
 
 .topnav{
-    margin: 40px;
+    display: flex;
+    padding: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin: 0.5rem;
 }  
 .topnav a{
-    margin: 30px;
+    margin: 20px;
+    text-decoration: none !important;
+    color: black;
+    padding: 0.5rem;
     
 }
 
-header {
-    background-color: cadetblue;
-}
+
 .box1 {
-    background-color: cadetblue;
+    
    width: 1000px;
    height: 700px;
    margin: auto;
@@ -37,27 +43,18 @@ header {
     height: 60px;
     margin: auto;
     margin-top: 50px;
+}
 
+.search {
+    float: right;
 }
 
 
-#search input{
-    width: 500px;
-    height: 50px;
-    border-radius: 25px;
-}
-h1{
-    width: 700px;
-    height: 70px;
-    margin: auto;
-    margin-top: 80px;
-    text-align: center;
-    background-color: darkgray;
-}
+
 
 
   .topnav input[type=text] {
-    float: right;
+
     padding: 7px;
     border: #98c7ed;
     margin-top: 7px;
@@ -67,11 +64,15 @@ h1{
     }
     .topnav a:hover {
         background-color: #ddd;
+        padding: 0.5rem;
         color: black;
+        border-radius: 5px;
       }
       .topnav a.active {
-        background-color: #a8ccea;
-      color: white;
+        background-color: #092c48;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 5px;
       }
     .filters{
         background-color: darkgray;
@@ -129,16 +130,7 @@ h1{
         
         
       }
-    button {
-        width: 40px;
-        height: 40px;
-        margin-top: 5px;
-        border-radius: 30px;
-        float: right;
-        margin-right: 20px;
-       background-color: #064b1d;
-       color: aliceblue;
-    }
+  
       .texts {
         background-color: #98c7ed;
         width: 1100px;
@@ -174,8 +166,169 @@ h1{
     .rapport a{
         color: rgb(71, 54, 232);
     }
-     
+    .post {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1rem;
+    }
+    .head{
+        background-color: aliceblue;
+        display: block;
+        height: 12rem;
+        align-items: center;
+    }
+    .head h1{
+      text-align: center;
+      text-decoration: none;
+      
+    }
+   
+    .footer-distributed{
+        background: #444;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        font: bold 16px sans-serif;
+        text-align: left;
+        padding: 50px 60px 40px;
+        overflow: hidden;
+    }
+    section {
+        width: 100%;
+        display: inline-block;
+        background: #ccc;
+        height: 60vh;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        text-decoration: underline;
+      }
 
- 
+    .footer-distributed .footer-left{
+        float: left;
+    }
+    .footer-distributed h3{
+        color:  #ffffff;
+        font: normal 36px 'Roboto', cursive;
+        margin: 0 0 10px;
+    }
+    
+    .footer-distributed h3 span{
+        color:  #5383d3;
+    }
+    .footer-distributed .footer-links{
+        color:  #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    
+    .footer-distributed .footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+    .footer-distributed .footer-company-name{
+        color:  #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed{
+    margin-top: 200px;
+    height: 300px;
+
+}
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
    
     
