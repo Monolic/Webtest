@@ -85,6 +85,7 @@ h1{
         margin-top: 50px;
         
     }
+   
     .filters a{
         background-color: rgb(184, 231, 215);
         margin: 80px;
@@ -132,7 +133,16 @@ h1{
         
         
       }
-    
+    button {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        border-radius: 30px;
+        float: right;
+        margin-right: 20px;
+       background-color: #064b1d;
+       color: aliceblue;
+    }
       .texts {
         background-color: #98c7ed;
         width: 1100px;
