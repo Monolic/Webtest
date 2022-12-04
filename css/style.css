@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+html{
+    font-size: 20px;
+}
+html,
+body {
+    height: 100%;
+    max-width: 100%;
+}
+body {
+    background-color: antiquewhite;
+  
+    
+
+      
+}
+
+
+.topnav{
+    margin: 40px;
+}  
+.topnav a{
+    margin: 30px;
+    
+}
+
+header {
+    background-color: cadetblue;
+}
+.box1 {
+    background-color: cadetblue;
+   width: 1000px;
+   height: 700px;
+   margin: auto;
+
+}
+#search{
+    background-color: darkolivegreen;
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+
+#search input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+}
+h1{
+    width: 700px;
+    height: 70px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 7px;
+    border: #98c7ed;
+    margin-top: 7px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-style: italic;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .topnav a.active {
+        background-color: #a8ccea;
+      color: white;
+      }
+    .filters{
+        background-color: darkgray;
+        width: 700px;
+        height: 70px;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    .filters a{
+        background-color: rgb(184, 231, 215);
+        margin: 80px;
+        border-radius: 20px;
+    }
+    .filters a:hover {
+        background-color: #a8ccea;
+        color: black;
+    }
+    .filters a.active {
+        background-color: rgb(255, 255, 255);
+        color: rgb(174, 42, 235);
+    }
+    .contain {
+        width: 100%;
+        height: 100%;
+        background-color: darkgrey;
+        margin: auto;
+        margin-top: 30px;
+        
+    }
+    .contain a{
+        margin: 30px;
+    }
+    .contain img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-top: 40px;
+    }
+ .first {
+        font-size: 24px;
+        margin-top: 70px;
+        background-color: #064b1d;
+        color: wheat;
+        padding: 10px;
+        display: inline-block;
+        width: 300px;
+        text-shadow: 10px 6px 24px;
+        font-family: 'Open Sans Condensed',sans-serif;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+        
+        
+        
+      }
+    
+      .texts {
+        background-color: #98c7ed;
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+      }
+      .texts p {
+        margin: 20px;
+        padding: 10px;
+      }
+      .thumb img{
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        margin: 30px;
+        margin-left:70px ;
+      }
+      .videotumb {
+        margin-top: 50px;
+        
+    }
+    iframe {
+        margin: 10px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    .rapport img{
+        width: 30px;
+        height: 30px;
+        margin-left: 40px;
+    }
+    .rapport a{
+        color: rgb(71, 54, 232);
+    }
+     
+
+ 
+   
+    
